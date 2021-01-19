@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+   supported by Chrome, Edge, Opera and Firefox */
+}
+
+.cal__btn {
+    cursor: pointer;
+    width: 25px;
+    height: 45px;
+    color: #000000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 3px;
+    border: 1px solid gray;
+}
+
+.cal__btn:hover {
+    background: orange;
+}
+
+.calc-operator {
+    background: orange;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 200px;
+}
+
+.col {
+    display: table-cell;
+}
+
+#calc__clear {
+    width: 52.66666667px;
+}
+
+#calc__0 {
+    width: 52.66666667px;
+}
+
+#calc-display-val {
+    height: 50px;
+    color: #ffffff;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 12px;
+    background: #383838;
+    font-size: 2rem;
+    border-radius: 7px 7px 0 0;
+}

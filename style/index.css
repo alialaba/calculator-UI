@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+   supported by Chrome, Edge, Opera and Firefox */
+}
+
+.calc-parent {
+    background: #000000;
+    border-radius: 7px;
+}
+
+.cal__btn {
+    cursor: pointer;
+    width: 45px;
+    height: 35px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: #222222;
+    margin: 1em;
+    padding-top: .5em;
+    border-radius: 40%;
+}
+
+.calc-operator {
+    color: #98fb98;
+}
+
+.row {
+    display: flex;
+    width: 300px;
+}
+
+#calc-display-val {
+    margin-top: .5em;
+    height: 80px;
+    color: #ffffff;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 12px;
+    background: #383838;
+    font-size: 2rem;
+    border-radius: 7px 7px 0 0;
+    width: 300px;
+}
+
+.calc-header {
+    color: #ffffff;
+    display: flex;
+}
+
+.calc-header span {
+    width: 10px;
+    height: 10px;
+    margin: .5em;
+    border-radius: 50%;
+}
+
+.calc-header span:nth-child(1) {
+    background: #f6c700;
+}
+
+.calc-header span:nth-child(2) {
+    background: #98fb98;
+}
+
+.calc-header span:nth-child(3) {
+    background: red;
+}

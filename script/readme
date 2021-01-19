@@ -1,0 +1,24 @@
+How to build a Calculator App with JavaScript
+This epic tutorial provides a solid workout for JavaScript newbies by describing,
+ how a simple calculator application can be developed with the language.
+ Let’s start by creating variablesa that will show,pend and eval the values been type function called updateCalcScreen ;
+ //display click on screen
+let displayValue = '0';
+let pendingValue;
+let evalStringArray = [];
+
+//function that handle the updateCalcScreen.
+const updateCalcScreen = (clickValue) => {
+    let btnNum = clickValue.target.innerText;
+    if (displayValue === '0')
+        displayValue = "";
+    displayValue += btnNum;
+    displayOnScreen.innerHTML = displayValue;
+
+}
+
+//looping through each numbers
+
+for (let i = 0; i < calNumBtns.length; i++) {
+    calNumBtns[i].addEventListener('click', updateCalcScreen, false)
+}
